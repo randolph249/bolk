@@ -1,0 +1,77 @@
+.wrap {
+  width: 100%;
+  background: #dadada;
+  padding-top: 24px;
+  position: relative; }
+  .wrap .topbar-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 24px;
+    height: 24px;
+    font-size: 12px;
+    background: #dadada; }
+    .wrap .topbar-nav .topbar-nav-inner {
+      width: 1180px;
+      margin: 0 auto;
+      height: 24px; }
+    .wrap .topbar-nav .top-nav-handler {
+      line-height: 24px;
+      float: right;
+      color: #777;
+      padding-left: 25px; }
+  .wrap .wrap-inner {
+    width: 1180px;
+    margin: 0 auto; }
+    .wrap .wrap-inner .bolk-header {
+      height: 42px; }
+      .wrap .wrap-inner .bolk-header .logo {
+        width: 380px;
+        background: #f00;
+        height: 42px;
+        float: left; }
+      .wrap .wrap-inner .bolk-header .navs {
+        float: left; }
+        .wrap .wrap-inner .bolk-header .navs .nav {
+          display: inline-block;
+          width: 120px;
+          text-align: center;
+          line-height: 42px;
+          color: #000;
+          box-sizing: border-box;
+          height: 42px;
+          font-size: 14px; }
+          .wrap .wrap-inner .bolk-header .navs .nav.active {
+            color: #3680c9;
+            border-bottom: solid 2px #3680c9; }
+      .wrap .wrap-inner .bolk-header .searchcont {
+        width: 190px;
+        float: right;
+        height: 28px;
+        background: #fff;
+        position: relative;
+        border-radius: 3px;
+        box-sizing: border-box;
+        top: 7px;
+        padding: 0 30px; }
+        .wrap .wrap-inner .bolk-header .searchcont .iconfont {
+          line-height: 28px;
+          color: #777;
+          position: absolute;
+          top: 0;
+          display: inline-block;
+          width: 30px;
+          text-align: center; }
+        .wrap .wrap-inner .bolk-header .searchcont .icon-search {
+          left: 0; }
+        .wrap .wrap-inner .bolk-header .searchcont .icon-user {
+          right: 0; }
+        .wrap .wrap-inner .bolk-header .searchcont .searchcont-text {
+          position: absolute;
+          left: 30px;
+          right: 30px;
+          top: 0;
+          bottom: 0;
+          border: 0 none;
+          line-height: 28px; }
